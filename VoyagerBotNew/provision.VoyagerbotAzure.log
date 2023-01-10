@@ -1,0 +1,30 @@
+{
+  "profileName": "VoyagerbotAzure",
+  "jobId": "15e3e1db-4e34-42d3-8229-00f3bdea5cfd",
+  "projectId": "984.0563057515573",
+  "time": "2022-09-11T16:36:16.458Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: VoyagerBotResourcesNew at westus",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 8024cd8b-fa6f-4d49-8e4e-e08481aa4058",
+    "> Create App Registration Success! ID: 8024cd8b-fa6f-4d49-8e4e-e08481aa4058",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Deploying Cosmos DB Resource ...",
+    "Deploying Application Insights Resource ...",
+    "> Linking Application Insights settings to Bot Service ...",
+    "> AppInsights AppId: b125137d-4978-49f6-95c7-47ab2536babc ...",
+    "> AppInsights InstrumentationKey: 31b5eb93-8ece-46c4-984b-396ca92a8e97 ...",
+    "> AppInsights ApiKey: ngqhk51t65cx6zpt23kwrnn4sknosmc1z82ztdwm ...",
+    "> Linking Application Insights settings to Bot Service Success!",
+    "Deploying Blob Storage Resource ...",
+    "Deploying Luis Authoring Resource ...",
+    "Deploying Luis Resource ...",
+    "Deploying QnA Resource ...",
+    "{\"stack\":\"Error: read ECONNRESET\\n    at new RestError2 (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:250790:26)\\n    at AxiosHttpClient2.<anonymous> (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:251418:23)\\n    at step (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:6636:23)\\n    at Object.throw (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:6583:18)\\n    at rejected (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:6561:36)\",\"message\":\"read ECONNRESET\",\"code\":\"REQUEST_SEND_ERROR\",\"request\":{}}",
+    "{\"name\":\"CREATE_QNA_ERROR\",\"message\":\"Error - read ECONNRESET\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:255547:25)\\n    at createCustomizeError2 (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:255552:10)\\n    at AzureResourceMananger.deployQnAReource (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:256498:13)\"}",
+    "Provisioning completed 8 items before encountering a problem. {\"name\":\"CREATE_QNA_ERROR\",\"message\":\"Error - read ECONNRESET\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:255547:25)\\n    at createCustomizeError2 (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:255552:10)\\n    at AzureResourceMananger.deployQnAReource (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:256498:13)\"}. See provision.VoyagerbotAzure.log in your bot folder"
+  ]
+}

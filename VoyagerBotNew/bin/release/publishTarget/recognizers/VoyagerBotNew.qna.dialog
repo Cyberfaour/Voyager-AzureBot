@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "QnA_VoyagerBotNew",
+  "recognizers": {
+    "en-us": "VoyagerBotNew.en-us.qna",
+    "": "VoyagerBotNew.en-us.qna"
+  }
+}

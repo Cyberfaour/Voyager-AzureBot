@@ -1,0 +1,46 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Welcome to Voyager! Your portal towards the world!
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that.
+# TextInput_Prompt_M2y06g()
+[Activity
+    Text = ${expandText(@answer)}
+    SuggestedActions = ${foreach(turn.recognized.answers[0].context.prompts, x, x.displayText)}
+]
+
+# SendActivity_56gl7J()
+- ${expandText(@answer)}
+
+# SendActivity_MfROhN()
+[Activity
+    Text = ${SendActivity_MfROhN_text()}
+]
+
+# SendActivity_MfROhN_text()
+- How may I help you today?
+# SendActivity_4SH3cg()
+[Activity
+    Text = ${SendActivity_4SH3cg_text()}
+]
+
+# SendActivity_4SH3cg_text()
+- Please contact our agents for further assitance via emial Voyager.lb@outlook.com
+# SendActivity_A0lJMh()
+[Activity
+    Text = ${SendActivity_A0lJMh_text()}
+]
+
+# SendActivity_A0lJMh_text()
+- Try typing one  of the following options: Register - Website- Contact

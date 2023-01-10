@@ -1,0 +1,27 @@
+{
+  "profileName": "VoyagerBot",
+  "jobId": "c29c91a5-058c-4960-b428-94dedfed41ff",
+  "projectId": "984.0563057515573",
+  "time": "2022-09-11T16:29:31.868Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: VoyagerBotResourcesNew at westus",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : f6cd0b47-fd47-4ab8-8851-d13a3d29c2ee",
+    "> Create App Registration Success! ID: f6cd0b47-fd47-4ab8-8851-d13a3d29c2ee",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Deploying Cosmos DB Resource ...",
+    "Deploying Application Insights Resource ...",
+    "> Linking Application Insights settings to Bot Service ...",
+    "> AppInsights AppId: 67f7c1de-18e5-49f6-9eb2-cd63a0a33d5e ...",
+    "> AppInsights InstrumentationKey: 0936d4ac-bcf8-4a47-9901-aa4536ec5c11 ...",
+    "> AppInsights ApiKey: l0mrrx3t1r00a7a7l5oginj7g6nur6x8qjqxbcy4 ...",
+    "> Linking Application Insights settings to Bot Service Success!",
+    "Deploying Blob Storage Resource ...",
+    "{\"stack\":\"Error: The subscription is not registered to use namespace 'Microsoft.Storage'. See https://aka.ms/rps-not-found for how to register subscriptions.\\n    at new RestError2 (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:159952:26)\\n    at C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:160885:27\\n    at async AzureResourceMananger.deployBlobStorageResource (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:256709:28)\\n    at async BotProjectProvision.create (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:257183:44)\\n    at async AzurePublisher.asyncProvision (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:257626:34)\",\"message\":\"The subscription is not registered to use namespace 'Microsoft.Storage'. See https://aka.ms/rps-not-found for how to register subscriptions.\",\"code\":\"MissingSubscriptionRegistration\",\"statusCode\":409,\"request\":{\"body\":\"{\\\"sku\\\":{\\\"name\\\":\\\"Standard_LRS\\\"},\\\"kind\\\":\\\"StorageV2\\\",\\\"location\\\":\\\"westeurope\\\"}\"},\"response\":{\"body\":\"{\\\"error\\\":{\\\"code\\\":\\\"MissingSubscriptionRegistration\\\",\\\"message\\\":\\\"The subscription is not registered to use namespace 'Microsoft.Storage'. See https://aka.ms/rps-not-found for how to register subscriptions.\\\",\\\"details\\\":[{\\\"code\\\":\\\"MissingSubscriptionRegistration\\\",\\\"target\\\":\\\"Microsoft.Storage\\\",\\\"message\\\":\\\"The subscription is not registered to use namespace 'Microsoft.Storage'. See https://aka.ms/rps-not-found for how to register subscriptions.\\\"}]}}\"},\"body\":{\"message\":\"The subscription is not registered to use namespace 'Microsoft.Storage'. See https://aka.ms/rps-not-found for how to register subscriptions.\",\"code\":\"MissingSubscriptionRegistration\"}}",
+    "{\"name\":\"CREATE_BLOB_STORAGE_ERROR\",\"message\":\"Error - The subscription is not registered to use namespace 'Microsoft.Storage'. See https://aka.ms/rps-not-found for how to register subscriptions.\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:255547:25)\\n    at createCustomizeError2 (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:255552:10)\\n    at AzureResourceMananger.deployBlobStorageResource (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:256731:13)\"}",
+    "Provisioning completed 5 items before encountering a problem. {\"name\":\"CREATE_BLOB_STORAGE_ERROR\",\"message\":\"Error - The subscription is not registered to use namespace 'Microsoft.Storage'. See https://aka.ms/rps-not-found for how to register subscriptions.\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:255547:25)\\n    at createCustomizeError2 (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:255552:10)\\n    at AzureResourceMananger.deployBlobStorageResource (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:256731:13)\"}. See provision.VoyagerBot.log in your bot folder"
+  ]
+}

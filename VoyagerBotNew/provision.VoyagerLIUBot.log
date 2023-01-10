@@ -1,0 +1,24 @@
+{
+  "profileName": "VoyagerLIUBot",
+  "jobId": "2d770e44-d2c7-4bcb-a9c2-7941146d385e",
+  "projectId": "984.0563057515573",
+  "time": "2022-08-10T11:33:05.691Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: VoyagerNewResources at westus",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 0ef481b8-6db3-4188-989e-37a00aefe462",
+    "Add application password failed, retrying ...",
+    "Add application password failed, retrying ...",
+    "Add application password failed, retrying ...",
+    "> Create App Registration Success! ID: 0ef481b8-6db3-4188-989e-37a00aefe462",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Deploying QnA Resource ...",
+    "Deploying Cosmos DB Resource ...",
+    "{\"stack\":\"Error: The subscription is not registered to use namespace 'Microsoft.DocumentDB'. See https://aka.ms/rps-not-found for how to register subscriptions.\\n    at new RestError2 (D:\\\\apps\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:180915:26)\\n    at D:\\\\apps\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:181850:27\\n    at async AzureResourceMananger.deployCosmosDBResource (D:\\\\apps\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:277545:37)\\n    at async BotProjectProvision.create (D:\\\\apps\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:278091:41)\\n    at async AzurePublisher.asyncProvision (D:\\\\apps\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:278539:34)\",\"message\":\"The subscription is not registered to use namespace 'Microsoft.DocumentDB'. See https://aka.ms/rps-not-found for how to register subscriptions.\",\"code\":\"MissingSubscriptionRegistration\",\"statusCode\":409,\"request\":{\"body\":\"{\\\"location\\\":\\\"westus\\\",\\\"properties\\\":{\\\"locations\\\":[{\\\"locationName\\\":\\\"westus\\\",\\\"failoverPriority\\\":0}],\\\"databaseAccountOfferType\\\":\\\"Standard\\\"}}\"},\"response\":{\"body\":\"{\\\"error\\\":{\\\"code\\\":\\\"MissingSubscriptionRegistration\\\",\\\"message\\\":\\\"The subscription is not registered to use namespace 'Microsoft.DocumentDB'. See https://aka.ms/rps-not-found for how to register subscriptions.\\\",\\\"details\\\":[{\\\"code\\\":\\\"MissingSubscriptionRegistration\\\",\\\"target\\\":\\\"Microsoft.DocumentDB\\\",\\\"message\\\":\\\"The subscription is not registered to use namespace 'Microsoft.DocumentDB'. See https://aka.ms/rps-not-found for how to register subscriptions.\\\"}]}}\"},\"body\":{\"message\":\"The subscription is not registered to use namespace 'Microsoft.DocumentDB'. See https://aka.ms/rps-not-found for how to register subscriptions.\",\"code\":\"MissingSubscriptionRegistration\"}}",
+    "{\"name\":\"CREATE_COSMOSDB_ERROR\",\"message\":\"Error - The subscription is not registered to use namespace 'Microsoft.DocumentDB'. See https://aka.ms/rps-not-found for how to register subscriptions.\",\"stack\":\"Error\\n    at new CustomizeError (D:\\\\apps\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276418:25)\\n    at createCustomizeError (D:\\\\apps\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276423:10)\\n    at AzureResourceMananger.deployCosmosDBResource (D:\\\\apps\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:277631:13)\"}",
+    "Provisioning completed 4 items before encountering a problem. {\"name\":\"CREATE_COSMOSDB_ERROR\",\"message\":\"Error - The subscription is not registered to use namespace 'Microsoft.DocumentDB'. See https://aka.ms/rps-not-found for how to register subscriptions.\",\"stack\":\"Error\\n    at new CustomizeError (D:\\\\apps\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276418:25)\\n    at createCustomizeError (D:\\\\apps\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276423:10)\\n    at AzureResourceMananger.deployCosmosDBResource (D:\\\\apps\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:277631:13)\"}. See provision.VoyagerLIUBot.log in your bot folder"
+  ]
+}
